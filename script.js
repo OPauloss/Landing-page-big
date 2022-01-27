@@ -14,5 +14,5 @@ function pechincha(){
     alert('Pague o valor integral sempre. Doguezinglsh merece.')
 }
 function lambidinha(){
-    alert('Grátis na primeira lambidinha. R$ 900.000,00 para cada lambidinha adicional.')
+    alert('Grátis na primeira narigadinha. R$ 900.000,00 para cada narigadinha adicional.')
 }
