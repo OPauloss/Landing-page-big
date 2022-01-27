@@ -97,7 +97,7 @@ h3{
     border-top: 0.4px solid rgba(0, 0, 0, 0.082);
     padding-top: 32px;
 }
-footer p{
+.f1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,4 +105,26 @@ footer p{
     font-family: 'Monoton', cursive;
     font-size: 48px;
     color: black;
+}
+.f1{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Monoton';
+}
+.f2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dongle', sans-serif;
+
+}
+.f2 a{
+    display: flex;
+    text-decoration: underline;
+    padding-left: 5px;
+    font-size: 18px;
+    border-radius: 40px;
 }
