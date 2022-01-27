@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('imagens/rainbow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+nav a{
+    background-color: rgba(243, 158, 0, 0.534);
+    border-radius: 40px;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav a:hover{
+    background-color: rgba(253, 203, 110, 0.534);
+    color: #2F2325;
+    padding: 20px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgba(0, 0, 0, 0.082);
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.082);
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.texto-escrito{
+    font-family: 'Fredoka One', cursive;
+    font-size: 34px;
+    display: flex; 
+    flex-direction: column;
+    gap: 32px;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+.secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 32px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    color: black;
+}
+button{
+    font-family: 'Dongle', sans-serif;
+    font-size: 34px;
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    color: black;
+    background-color: rgba(243, 158, 0, 0.534);
+}
+button:hover{
+    background-color: rgba(253, 203, 110, 0.534);
+    transition-duration: 0.5s;
+}
+h3{
+    border-top: 0.4px solid rgba(0, 0, 0, 0.082);
+    padding-top: 32px;
+}
+footer p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    color: black;
+}
