@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="imagens/big-icon.png" type="image/x-icon">
+    <title>Formulário Doguezinglsh</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/icobig.png" alt="iconinho">
+        <nav>
+            <a id="a1" onclick="conheça()" href="#">Conheça mais!</a>
+            <a id="a2" onclick="dinheiro()" href="#">Só que custa dinheiro</a>
+            <a id="a3" onclick="pechincha()" href="#">Não aceito pechincha</a>
+            <a id="a4" onclick="lambidinha()" href="#">Narigadinha grátis*</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+           <fieldset>
+               <legend><strong>Formulário confiável do Bigzinho</strong></legend>
+               
+               <div class="inputBox">
+
+                    <input type="text" class="inputUser" id="nome" name="nome" required>
+                    <label for="nome"><p id="pnome">Coloca seu nome aqui</p></label><br>
+
+                    <input type="email" class="inputUser" id="email" name="email" required>
+                    <label for="email"><p id="pmail">Coloca seu e-mail agora</p></label><br>
+
+                    <input type="tel" class="inputUser" id="telefone" name="telefone" required>
+                    <label for="telefone"><p id="ptel">Pode botar o telefone</p></label><br><br>
+
+                    <h4>Sexo:</h4>
+                    <input type="radio" class="inputSex" id="masculino" name="sex" value="masculino">
+                    <label for="masculino">Macho Alfa</label>
+
+                    <input type="radio" class="inputSex" id="feminino" name="sex" value="feminino">
+                    <label for="feminino">Mulher vinda da costela de Adão</label>
+
+                    <input type="radio" class="inputSex" id="outro" name="sex" value="outro">
+                    <label for="outro">Outro</label><br>
+
+                    <input type="date" name="date" id="date">
+                    <label for="date"><strong>Quando nasceu:</strong></label><br>
+
+                    <input type="color" name="color" id="color">
+                    <label for="color">Cor da pele:</label><br>
+
+                    <label for="cartao">Foto do cartão frente/verso (não vo roba):</label>
+                    <input id="cartao" type="file" value="file"><br>
+
+                    <input id="submit" type="submit" value="Enviar informações">
+               </div>
+
+           </fieldset> 
+        </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('imagens/rainbow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.082);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+nav a{
+    background-color: rgba(243, 158, 0, 0.534);
+    border-radius: 40px;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+}
+nav a:hover{
+    background-color: rgba(253, 203, 110, 0.534);
+    color: #2F2325;
+    padding: 20px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+fieldset{
+    background-color: rgb(223, 179, 108);
+    font-family:'Fredoka One', cursive;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 100px;
+}
+legend{
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.9em;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px;
+    background-color: rgb(223, 179, 108);
+}
+
+.inputUser{
+    font-size: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.inputSex{
+    margin-bottom: 20px;
+}
+#date{
+    margin-bottom: 20px;
+}
+#color{
+    margin-bottom: 20px;
+}
+#cartao{
+    margin-bottom: 20px;
+}
+#submit{
+    position: relative;
+    left: 35%;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+}
