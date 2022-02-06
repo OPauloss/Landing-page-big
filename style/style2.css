@@ -7,10 +7,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-image: url('imagens/rainbow.jpg');
+html, body{
+    background-image: url('../imagens/rainbow.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 header{
@@ -46,19 +47,24 @@ nav a:hover{
     border-radius: 20px;
     transition-duration: 0.5s;
 }
-
+main{
+    margin-bottom: 48px;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.082);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 fieldset{
     background-color: rgb(223, 179, 108);
     font-family:'Fredoka One', cursive;
-    display: inline-block;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     padding: 15px;
     border-radius: 20px;
     border: 2px solid black;
-    margin-top: 100px;
 }
 legend{
     font-family: 'Fredoka One', cursive;
@@ -70,20 +76,19 @@ legend{
     box-shadow: 1px 1px 3px;
     background-color: rgb(223, 179, 108);
 }
-
 .inputUser{
     font-size: 15px;
     background: none;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
-    width: 100%;
+    width: 90%;
     letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
-
 .inputSex{
     margin-bottom: 20px;
+
 }
 #date{
     margin-bottom: 20px;
@@ -98,7 +103,43 @@ legend{
     position: relative;
     left: 35%;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 40px;
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(223, 179, 108);
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.507);
 }
+#submit:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(227, 209, 171);
+
+}
+
+.f1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monoton';
+    font-size: 48px;
+ }
+ .f2{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     font-family: 'Dongle', sans-serif;
+ 
+ }
+ .f2 a{
+     display: flex;
+     text-decoration: underline;
+     padding-left: 5px;
+     font-size: 18px;
+     border-radius: 40px;
+ }
+
+
+

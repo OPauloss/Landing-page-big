@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style/style2.css">
     <link rel="shortcut icon" href="imagens/big-icon.png" type="image/x-icon">
     <title>Formulário Doguezinglsh</title>
 </head>
@@ -25,14 +25,14 @@
                
                <div class="inputBox">
 
-                    <input type="text" class="inputUser" id="nome" name="nome" required>
-                    <label for="nome"><p id="pnome">Coloca seu nome aqui</p></label><br>
+                    <label for="nome"><p id="pnome">Coloca seu nome aqui</p></label>
+                    <input type="text" class="inputUser" id="nome" name="nome" required><br>
 
-                    <input type="email" class="inputUser" id="email" name="email" required>
-                    <label for="email"><p id="pmail">Coloca seu e-mail agora</p></label><br>
+                    <label for="email"><p id="pmail">Coloca seu e-mail agora</p></label>
+                    <input type="email" class="inputUser" id="email" name="email" required><br>
 
-                    <input type="tel" class="inputUser" id="telefone" name="telefone" required>
-                    <label for="telefone"><p id="ptel">Pode botar o telefone</p></label><br><br>
+                    <label for="telefone"><p id="ptel">Pode botar o telefone</p></label>
+                    <input type="tel" class="inputUser" id="telefone" name="telefone" required><br>
 
                     <h4>Sexo:</h4>
                     <input type="radio" class="inputSex" id="masculino" name="sex" value="masculino">
@@ -44,11 +44,13 @@
                     <input type="radio" class="inputSex" id="outro" name="sex" value="outro">
                     <label for="outro">Outro</label><br>
 
+                    <label for="date"><strong>Quando nasceu:</strong></label>
                     <input type="date" name="date" id="date">
-                    <label for="date"><strong>Quando nasceu:</strong></label><br>
+                    <br>
 
+                    <label for="color">Cor da pele:</label>
                     <input type="color" name="color" id="color">
-                    <label for="color">Cor da pele:</label><br>
+                    <br>
 
                     <label for="cartao">Foto do cartão frente/verso (não vo roba):</label>
                     <input id="cartao" type="file" value="file"><br>
@@ -58,7 +60,11 @@
 
            </fieldset> 
         </form>
-
+    </main>
+        <footer>
+            <p class="f1">BIGZINHO</p>
+            <p class="f2">Site criado pelo meu humano<a href="https://github.com/OPauloss">Paulo Henrique Santos</a></p>
+        </footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ function conheça(){
     alert('Tem que pagar')
 }
 function dinheiro(){
-    alert('Desculpe, você não tem dinheiro suficiente para visualizar o conteúdo dessa página. Volte quando for rico.')
+    alert('Desculpe, você não tem dinheiro suficiente para visualizar o conteúdo desta página. Volte quando for rico.')
 }
 function pechincha(){
     alert('Pague o valor integral sempre. Doguezinglsh merece.')
