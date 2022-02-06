@@ -153,4 +153,13 @@ h3{
         
     }
 }
-
+@media (max-width: 620px){
+    .secundario p{
+        text-align: center;
+        display: block;
+        font-family: 'Fredoka One', cursive;
+        font-size: 18px;
+        color: black;
+    }
+        
+}
