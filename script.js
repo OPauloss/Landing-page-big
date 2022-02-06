@@ -16,3 +16,12 @@ function pechincha(){
 function lambidinha(){
     alert('Grátis na primeira narigadinha. R$ 900.000,00 para cada narigadinha adicional.')
 }
+
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
+
+btnMobile.addEventListener('click', toggleMenu);
