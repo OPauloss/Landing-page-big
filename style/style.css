@@ -8,7 +8,7 @@
 }
 html, body{
     background-image: url('../imagens/rainbow.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 100%;
 }
@@ -138,4 +138,19 @@ h3{
     border-radius: 40px;
 }
 
+@media (max-width: 1080px){
+    .principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        margin-left: 3%;
+    }
+    .texto-escrito button{
+        margin: 0px auto 20px auto;
+        
+    }
+}
 
