@@ -187,14 +187,18 @@ legend{
         display: none;
         position: absolute;  
         width: auto;    
-        top: 150px;
-        right: 60px;
+        top: 115px;
+        right: 0px;
         z-index: 1000;
+        border-radius: 40px;
+        border: 1px solid black;
     }
     nav.active #menu{
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 48px;
+        background-color: #F7B66A;
+        padding: 25px;
     }
     button{
         font-family: 'Dongle', sans-serif;
