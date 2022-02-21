@@ -199,7 +199,15 @@ legend{
         gap: 48px;
         background-color: #F7B66A;
         padding: 25px;
+        
     }
+    
+    nav a{
+       background-color: rgba(243, 158, 0, 0);
+       box-shadow: none;
+       margin: 30px 0px;
+    }
+    
     button{
         font-family: 'Dongle', sans-serif;
         font-size: 34px;
