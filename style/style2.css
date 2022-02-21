@@ -28,9 +28,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    
 }
 nav a{
-    background-color: rgba(243, 158, 0, 0.534);
+    background-color: rgba(243, 158, 0, 0.925);
     border-radius: 40px;
     font-family: 'Fredoka One', cursive;
     padding: 20px;
@@ -193,7 +194,7 @@ legend{
     nav.active #menu{
         display: flex;
         flex-direction: column;
-        gap: 48px;
+        gap: 60px;
     }
     button{
         font-family: 'Dongle', sans-serif;

@@ -169,14 +169,23 @@ h3{
         display: none;
         position: absolute;  
         width: auto;    
-        top: 150px;
-        right: 60px;
+        top: 115px;
+        right: 0px;
         z-index: 1000;
+        border-radius: 40px;
+        border: 1px solid black;
     }
     nav.active #menu{
         display: flex;
         flex-direction: column;
         gap: 48px;
+        background-color: #F7B66A;
+        padding: 25px;
+        
+    }
+    nav a{
+       background-color: rgba(243, 158, 0, 0);
+       box-shadow: none;
     }
 }
 @media (max-width: 620px){
